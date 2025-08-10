@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: java-app-container
-        image: userjingjing/kube-petclinic-app:3.0.0
+        image: userjingjing/kube-petclinic-app:20250810030300
         env:
             - name: DB_USERNAME
               valueFrom:
